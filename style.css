@@ -286,3 +286,50 @@ nav li a:hover{
     cursor: pointer;
     border: none;
    }
+
+   /* contact section */
+
+   #contact{
+    margin-top: 15rem;
+   }
+   .contact_section  form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+   }
+   .contact_section  form h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+   }
+   .contact_section  input,textarea{
+    width: 400px;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+
+   }
+   .contact_section  form .form_btn{
+    padding: 8px 25px;
+    color: white;
+    margin-left: .5rem;
+    background: linear-gradient(to right, #0099f7, #f11712);
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+   }
+
+   /* Footer section */
+
+   .footer{
+    margin-top: 8rem;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+   }
